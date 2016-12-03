@@ -64,3 +64,4 @@ main = do
     print (x finalBlock + y finalBlock)
     putStrLn "The part 2 answer is:"
     print (x firstRepeat + y firstRepeat)
+    hClose handle

@@ -38,3 +38,4 @@ main = do
     print $ map (getFinalKey numPad (1, 1)) allLines
     putStrLn "The answer to part 2 is:"
     print $ map (getFinalKey weirdPad (0, 2)) allLines
+    hClose handle
