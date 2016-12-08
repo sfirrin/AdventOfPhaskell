@@ -17,8 +17,8 @@ def part2(inp):
 
 def main():
     day = 0
-    with open('in' + str(day).rjust(2, ' ') + '.txt', 'rb') as f:
-        inp = [line.strip() for line in f.read()]
+    with open('in' + str(day).rjust(2, '0') + '.txt', 'rb') as f:
+        inp = [line.strip() for line in f.readlines()]
     part1(inp)
     part2(inp)
 
